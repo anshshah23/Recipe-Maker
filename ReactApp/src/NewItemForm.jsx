@@ -14,7 +14,7 @@ const NewItemForm = ({onSubmit}) => {
       }
     return (  
         <div className="newItemForm">
-            <p>Add ingredients you have.Click the generate to get recipe suggestions. Popular: onion, potato, chciken, nutella</p>
+            <p>Add ingredients you have.Click the generate to get recipe suggestions. Popular: onion, potato, chicken, nutella</p>
             <form onSubmit={handleSubmit} className="new-item-from">
             <div className="form-row">
                 
